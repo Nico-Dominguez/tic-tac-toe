@@ -18,7 +18,7 @@ h1 {
   position: relative;
 }
 
-.title {
+.tile {
   color: currentColor;
   font-size: 2em;
   display: flex;
@@ -28,6 +28,10 @@ h1 {
 
 .right-border {
   border-right: 0.2em solid #0074a6;
+}
+
+.bottom-border {
+  border-bottom: 0.2em solid #0074a6;
 }
 
 .x-hover:hover::after {
